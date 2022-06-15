@@ -1,0 +1,20 @@
+.login-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+.login-page-logo {
+    margin-bottom: 12px;
+}
+.login-err {
+    width: 560px;
+    padding: 14px;
+    text-align: center;
+    background-color: #ffc1c1b0;
+    border-radius: 8px;
+    margin-bottom: 7px;
+
+}

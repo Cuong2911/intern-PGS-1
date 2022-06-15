@@ -1,0 +1,41 @@
+.form-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+
+    .error {
+        color: red;
+    }
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+
+    label {
+        margin-bottom: 8px;
+    }
+}
+.form-input-wrap {
+    border: 1px solid #a9a9a9;
+    padding: 4px 6px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+
+    .form-control-input {
+        flex: 1;
+        font-size: 14px;
+    }
+
+    &:focus-within {
+        border-color: #484848;
+    }
+}
+.form-input-wrap.no-border {
+    border-color: transparent;
+
+    .form-control-input {
+        flex: none;
+    }
+}

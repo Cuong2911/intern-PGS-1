@@ -1,0 +1,14 @@
+.btn  {
+    padding: 8px 12px;
+    background-color: rgb(181, 181, 181);
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+.btn:hover {
+    opacity: 0.8;
+}
+.btn-primary {
+    background-color: rgb(35, 209, 228);
+    color: white;
+}
